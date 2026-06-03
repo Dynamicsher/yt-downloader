@@ -38,7 +38,6 @@ android.enable_androidx = True
 fullscreen = 0
 
 android.accept_sdk_license = True
-android.sdk_path = /home/runner/.buildozer/android/platform/android-sdk
 
 [buildozer]
 log_level = 2
