@@ -9,4 +9,7 @@ RUN apt-get update && apt-get install -y \
     cmake libffi-dev libssl-dev \
     && rm -rf /var/lib/apt/lists/*
 
-RUN pip3 install buildozer cython==0.29.33
+RUN pip3 install \
+    buildozer==1.5.0 \
+    cython==0.29.33 \
+    "python-for-android==2023.09.16"
