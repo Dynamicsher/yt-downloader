@@ -11,7 +11,7 @@ version = 1.0
 # --- Requirements ---
 # yt-dlp is pure Python so it bundles fine.
 # ffpyplayer gives us FFmpeg on Android without a separate binary.
-requirements = python3,kivy==2.3.0,yt-dlp,certifi,requests,urllib3,charset-normalizer,idna
+requirements = python3==3.11.0,kivy==2.3.0,yt-dlp,certifi,requests,urllib3,charset-normalizer,idna
 
 # --- Orientation ---
 orientation = portrait
@@ -37,6 +37,7 @@ android.enable_androidx = True
 # --- Fullscreen ---
 fullscreen = 0
 
+android.python_version = 3.11
 android.accept_sdk_license = True
 
 [buildozer]
